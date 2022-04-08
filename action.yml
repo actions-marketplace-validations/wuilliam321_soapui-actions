@@ -11,6 +11,3 @@ description: 'run SoapUI tests'
 runs:
   using: 'docker'
   image: 'Dockerfile'
-  args:
-    - ${{ inputs.project }}
-    - ${{ inputs.cmd }}
