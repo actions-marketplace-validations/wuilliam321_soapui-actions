@@ -1,2 +1,3 @@
 FROM smartbear/soapuios-testrunner:latest
-ENTRYPOINT [ "./entrypoint.sh" ]
+COPY entrypoint.sh /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]
